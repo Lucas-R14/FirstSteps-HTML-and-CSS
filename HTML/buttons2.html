@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>buttons2</title>
+    </head>
+    <body>
+        
+        <h1>This is page 2</h1>
+        <hr>
+
+            <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
+            <button style="font-size: 24px; background-color: lightblue; border-radius: 20px;">click me</button>
+            </a>
+
+            <br><br>
+
+            <a href="buttons.html">
+            <button style="font-size: 24px; background-color: lightblue; border-radius: 20px;">go back</button>
+            </a>
+
+            <br><br>
+
+            <button onclick="doSomething()" style="font-size: 24px; background-color: lightblue; border-radius: 20px;"> JavaScript button test</button>
+    
+            <p id="greeting">Hello :D</p>
+
+            <script>
+                function doSomething(){
+                    document.getElementById("greeting").innerHTML = "Goodbye :("
+                }
+            </script>
+        </body>
+</html>
